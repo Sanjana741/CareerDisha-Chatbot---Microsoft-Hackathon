@@ -12,7 +12,7 @@ CareerDisha is an AI-powered career recommendation system that helps users find 
 ## Installation  
 1. Clone the Repository  
     ```bash
-      git clone https://github.com/yourusername/CareerDisha.git
+      git clone https://github.com/yourusername/Career-Recommendation-Chatbot.git
       cd CareerDisha
 2. Set up your virtual environment, and then install the required packages from requiremnets.txt file using the command:
    ```bash
