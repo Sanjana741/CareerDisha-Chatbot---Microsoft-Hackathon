@@ -1,4 +1,4 @@
-# lumina_microsoft_hackethon
+# Lumina_Microsoft_Hackathon
 # CareerDisha: Your AI Career Navigator 🚀
 
 CareerDisha is an AI-powered career recommendation system that helps users find the best job opportunities based on their skills, interests, and education. It uses **Flask**, **Azure OpenAI**, and **Pandas** to analyze resumes and suggest relevant career paths.
@@ -9,26 +9,23 @@ CareerDisha is an AI-powered career recommendation system that helps users find 
 - **Detailed Career Analysis** – Skill gap identification & salary insights.
 - **Interactive UI** – Simple and user-friendly interface.
 
-## Installation ⚡
-1. Set up your virtual environment, and then install the required packages from requiremnets.txt file using the command:
+## Installation  
+1. Clone the Repository  
+    ```bash
+      git clone https://github.com/yourusername/CareerDisha.git
+      cd CareerDisha
+2. Set up your virtual environment, and then install the required packages from requiremnets.txt file using the command:
    ```bash
    pip install -r requiremenets.txt
-2. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/CareerDisha.git
-   cd CareerDisha
-3. Install dependencies:
-   ```bash
-   pip install flask pandas openai werkzeug
-4. 3️⃣ Set environment variables (Optional but recommended):
+3. Set environment variables (Optional but recommended):
    ```bash
    export ENDPOINT_URL="your_azure_openai_endpoint"
    export DEPLOYMENT_NAME="gpt-4"
    export AZURE_OPENAI_API_KEY="your_api_key"
-5. Run the application:
+4. Run the application:
    ```bash
    python app.py
-6. Open in browser:
+5. Open in browser:
    ```bash
     http://localhost:5001
 ## Usage
