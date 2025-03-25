@@ -1,7 +1,7 @@
 # Lumina_Microsoft_Hackathon
-# CareerDisha: Your AI Career Advisor 🚀
+# CareerDisha: Your AI Career Advisor (Using Azure Services) 🚀
 
-CareerDisha is an AI-powered career recommendation system that helps users find the best job opportunities based on their skills, interests, and education. It uses **Flask**, **Azure OpenAI**, and **Pandas** to analyze resumes and suggest relevant career paths.
+CareerDisha is an AI-powered career recommendation system that helps users find the best job opportunities based on their skills, interests, and education. It uses **Flask**, **Azure OpenAI API**, and **Pandas** to analyze resumes and suggest relevant career paths.
 
 ## Features 🌟
 - **Upload Resume (PDF)** – Extracts skills using AI.
@@ -20,7 +20,7 @@ CareerDisha is an AI-powered career recommendation system that helps users find 
 3. Set environment variables (Optional but recommended):
    ```bash
    export ENDPOINT_URL="your_azure_openai_endpoint"
-   export DEPLOYMENT_NAME="gpt-4"
+   export DEPLOYMENT_NAME="your_deployment_name"
    export AZURE_OPENAI_API_KEY="your_api_key"
 4. Run the application:
    ```bash
